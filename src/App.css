@@ -1,0 +1,50 @@
+.actions-controller__wrapper:hover {
+  border: 1px dashed;
+}
+
+.active-actions-controller__wrapper {
+  border: 1px dashed;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* scrollbar styling */
+.scrollbar::-webkit-scrollbar {
+  background-color: #fff;
+  width: 16px;
+}
+
+/* background of the scrollbar except button or resizer */
+.scrollbar::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.scrollbar::-webkit-scrollbar-track:hover {
+  background-color: #f4f4f4;
+}
+
+/* ========Scrollbar  */
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgb(160, 160, 165);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+a {
+  color: inherit !important;
+}
+
+#UnOrder-List {
+  padding-left: 0px !important;
+}
+
+* {
+  font-family: "Open Sans, Arial, sans-serif";
+}
